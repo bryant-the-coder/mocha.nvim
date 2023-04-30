@@ -1077,6 +1077,8 @@ function M.get(config)
 		GitSignsCurrentLineBlame = { fg = p.light_grey, italic = true, bold = true },
 
 		-- Custom Statusline
+		StatusLine = { fg = p.base04 },
+		StatusLineNC = { fg = p.base03 },
 		StatusNormal = { fg = p.green, bold = true },
 		StatusReplace = { fg = p.yellow, bold = true },
 		StatusInsert = { fg = p.nord_blue, bold = true },
