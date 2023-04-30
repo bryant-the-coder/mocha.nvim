@@ -389,7 +389,7 @@ function M.get(config)
 
 		LazyButton = {
 			bg = p.one_bg,
-			fg = generate_color(p.light_grey, vim.o.bg == "dark" and 10 or -20),
+			fg = p.light_grey,
 		},
 
 		LazyH2 = {
