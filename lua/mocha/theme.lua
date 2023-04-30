@@ -1078,14 +1078,14 @@ function M.get(config)
 
 		-- Custom Statusline
 		StatusLine = { fg = p.base04 },
-		StatusLineNC = { fg = p.base03 },
+		StatusLineNC = { fg = p.one_bg3 },
 		StatusNormal = { fg = p.green, bold = true },
 		StatusReplace = { fg = p.yellow, bold = true },
 		StatusInsert = { fg = p.nord_blue, bold = true },
 		StatusCommand = { fg = p.teal, bold = true },
 		StatusVisual = { fg = p.purple, bold = true },
 		StatusTerminal = { fg = p.red, bold = true },
-		Filename = { fg = "#a9b1d6" },
+		Filename = { fg = p.white },
 		Branch = { fg = p.pink, italic = true },
 		GitInfo = { fg = "#8b919c" },
 		SError = { fg = p.red, bold = true },
