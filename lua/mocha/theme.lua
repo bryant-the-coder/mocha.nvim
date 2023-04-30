@@ -1075,6 +1075,23 @@ function M.get(config)
 
 		-- Gitsigns
 		GitSignsCurrentLineBlame = { fg = p.light_grey, italic = true, bold = true },
+
+		-- Custom Statusline
+		StatusNormal = { fg = p.green, bold = true },
+		StatusReplace = { fg = p.yellow, bold = true },
+		StatusInsert = { fg = p.nord_blue, bold = true },
+		StatusCommand = { fg = p.teal, bold = true },
+		StatusVisual = { fg = p.purple, bold = true },
+		StatusTerminal = { fg = p.red, bold = true },
+		Filename = { fg = "#a9b1d6" },
+		Branch = { fg = p.pink, italic = true },
+		GitInfo = { fg = "#8b919c" },
+		SError = { fg = p.red, bold = true },
+		SWarning = { fg = p.yellow, bold = true },
+		SHint = { fg = p.purple, bold = true },
+		SInfo = { fg = p.green, bold = true },
+		Clock = { fg = p.cyan },
+		SearchCount = { fg = p.base0E },
 	}
 	vim.g.terminal_color_0 = p.base00
 	vim.g.terminal_color_1 = p.base08
